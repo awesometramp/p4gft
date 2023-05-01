@@ -1,0 +1,11 @@
+#piotnetforms .p65395965 .piotnetforms-label-inline {width: 10%;}
+#piotnetforms .p65395965 .piotnetforms-field-inline {width: calc(100% - 10%);}
+@media (max-width:1025px) {#piotnetforms .p65395965 .piotnetforms-label-inline {width: 10%;}}
+@media (max-width:1025px) {#piotnetforms .p65395965 .piotnetforms-field-inline {width: calc(100% - 10%);}}
+@media (max-width:767px) {#piotnetforms .p65395965 .piotnetforms-label-inline {width: 10%;}}
+@media (max-width:767px) {#piotnetforms .p65395965 .piotnetforms-field-inline {width: calc(100% - 10%);}}
+#piotnetforms .p65395965 .piotnetforms-calculated-fields-form {font-size: 24px;}
+#piotnetforms .p65395965 .piotnetforms-calculated-fields-form {font-weight: 700;}
+#piotnetforms .p65395965.piotnetforms-label-animation.piotnetforms-label-animated label {top: 24px;}
+@media (max-width:1025px) {#piotnetforms .p65395965.piotnetforms-label-animation.piotnetforms-label-animated label {top: 24px;}}
+@media (max-width:767px) {#piotnetforms .p65395965.piotnetforms-label-animation.piotnetforms-label-animated label {top: 24px;}}

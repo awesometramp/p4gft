@@ -1,4 +1,5 @@
 .elementor-513 .elementor-element.elementor-element-8b72846 > .elementor-container {max-width: 1438px;}
+.elementor-513 .elementor-element.elementor-element-8b72846 {overflow: visible;}
 .elementor-513 .elementor-element.elementor-element-78ee7e4 > .elementor-element-populated {margin: 100px 0px 100px 0px;--e-column-margin-right: 0px;--e-column-margin-left: 0px;}
 .elementor-513 .elementor-element.elementor-element-2097b4d .ht-custom-carousel .single-custom-carousel img {border-radius: 24px 24px 24px 24px;}
 .elementor-513 .elementor-element.elementor-element-2097b4d .htmega-carousel-activation .slick-arrow {color: #fff;font-size: 20px;background-color: rgba(2,1,1,.16);height: 30px;width: 30px;}
@@ -10,47 +11,67 @@
 .elementor-513 .elementor-element.elementor-element-2097b4d .htmega-carousel-activation .slick-dots li button {background-color: rgba(26,26,26,.39);border-style: none;height: 8px;width: 8px !important;}
 .elementor-513 .elementor-element.elementor-element-2097b4d .htmega-carousel-activation .slick-dots li.slick-active button {background-color: #ff6565;}
 .elementor-513 .elementor-element.elementor-element-2097b4d > .elementor-widget-container {padding: 137px 0px 40px 0px;}
+.elementor-513 .elementor-element.elementor-element-054098d {overflow: visible;}
 .elementor-513 .elementor-element.elementor-element-d2b2f39 {text-align: center;}
 .elementor-513 .elementor-element.elementor-element-916feaf {text-align: center;}
 .elementor-513 .elementor-element.elementor-element-916feaf .elementor-heading-title {color: rgba(2,1,1,.51);}
 .elementor-513 .elementor-element.elementor-element-e5ab958 {text-align: center;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit-wid-con .elementskit-coupon-popup .modal-content .modal-body {flex-direction: row;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .elementskit-coupon-popup .modal-body .ekit-coupon-modal-info {text-align: center;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit-coupon-wrapper .coupon-btn-link .ekit_coupon_text {justify-content: center;align-items: center;display: flex;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .click-to-copy__text {text-align: center;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit-coupon-wrapper .coupon-btn-link .ekit_coupon_text::after {border-left-color: #99bbef;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit-coupon-wrapper .coupon-btn-link .ekit_coupon_text, .elementor-513 .elementor-element.elementor-element-bd518c0 .click-to-copy__text {background-color: #ff5d5d;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit-coupon-wrapper .coupon-btn-link:hover .ekit_coupon_text {width: 80%;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit-coupon-wrapper :is(.ekit_coupon_text, .ekit_coupon_code) {padding: 10px 10px 10px 10px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit-wid-con .ekit-inline-coupon-code .click-to-copy__text {padding: 10px 10px 10px 10px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit-wid-con .ekit-inline-coupon-code .copy_success {padding: 10px 10px 10px 10px;text-align: center;color: #101010;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .click-to-copy__text i {font-size: 15px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .click-to-copy__text svg {width: 15px;height: 15px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit_coupon_text i {font-size: 15px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit_coupon_text svg {width: 15px;height: 15px;margin-right: 5px;margin-left: 5px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit_coupon_copybtn i {font-size: 15px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit_coupon_copybtn svg {width: 15px;height: 15px;margin-right: 5px;margin-left: 5px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit_coupon_text .ekit-coupon-code-icon-before {margin-right: 5px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit_coupon_text .ekit-coupon-code-icon-after {margin-left: 5px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .click-to-copy__text .ekit-coupon-code-icon-before {margin-right: 5px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .click-to-copy__text .ekit-coupon-code-icon-after {margin-left: 5px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit_coupon_copybtn .ekit-coupon-code-icon-before {margin-right: 5px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit_coupon_copybtn .ekit-coupon-code-icon-after {margin-left: 5px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit-coupon-wrapper .coupon-btn-link .ekit_coupon_code {text-align: center;color: #101010;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit_coupon_btn_group .ekit_coupon_copy_code {color: #101010;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit-promo-popup.ekit-coupon-popup > .mfp-container > .mfp-content {width: 650px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .elementskit-coupon-popup .modal-content .ekit-coupon-modal-close {right: 10px;font-size: 16px;color: #000;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .elementskit-coupon-popup .modal-content .ekit-coupon-modal-close svg {max-width: 16px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .elementskit-coupon-popup .modal-content .ekit-coupon-modal-close svg path {fill: #000;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit-inline-coupon-code .click-to-copy__text i {font-size: 15px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit-inline-coupon-code .click-to-copy__text svg {width: 15px;height: 15px;position: relative;top: 3px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit-inline-coupon-code .click-to-copy__text .ekit-coupon-code-icon-before {margin-right: 5px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit-inline-coupon-code .click-to-copy__text .ekit-coupon-code-icon-after {margin-left: 5px;}
+.elementor-513 .elementor-element.elementor-element-bd518c0 .ekit-inline-coupon-code .copy__text svg {margin-right: 5px;margin-left: 5px;}
+.elementor-513 .elementor-element.elementor-element-7c4cdc9 .ekit-wid-con .elementskit-whatsapp--right {right: 30px;left: auto;}
+.elementor-513 .elementor-element.elementor-element-7c4cdc9 .ekit-wid-con .elementskit-whatsapp--left {left: 30px;right: auto;}
+.elementor-513 .elementor-element.elementor-element-7c4cdc9 .whatsapp-rotate-icon path {stroke: #fff;}
+.elementor-513 .elementor-element.elementor-element-7c4cdc9 .elementskit-whatsapp__popup--btn i {color: #fff;}
+.elementor-513 .elementor-element.elementor-element-7c4cdc9 .elementskit-whatsapp .elementskit-whatsapp__popup--btn svg {width: 26px;height: 26px;}
+.elementor-513 .elementor-element.elementor-element-7c4cdc9 .elementskit-whatsapp .elementskit-whatsapp__popup--btn i {font-size: 26px;}
+.elementor-513 .elementor-element.elementor-element-7c4cdc9 .elementskit-whatsapp__header--close:hover {color: #000;}
 .elementor-513 .elementor-element.elementor-element-5b4aa434 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {margin-bottom: -3px;}
 .elementor-513 .elementor-element.elementor-element-5b4aa434 > .elementor-element-populated {margin: 29px 29px 29px 29px;--e-column-margin-right: 29px;--e-column-margin-left: 29px;}
 .elementor-513 .elementor-element.elementor-element-e6edd59:not(.elementor-motion-effects-element-type-background), .elementor-513 .elementor-element.elementor-element-e6edd59 > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #fff;}
 .elementor-513 .elementor-element.elementor-element-e6edd59, .elementor-513 .elementor-element.elementor-element-e6edd59 > .elementor-background-overlay {border-radius: 24px 24px 24px 24px;}
-.elementor-513 .elementor-element.elementor-element-e6edd59 {box-shadow: 0px 0px 41px -12px rgba(0,0,0,.5);transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;}
+.elementor-513 .elementor-element.elementor-element-e6edd59 {box-shadow: 0px 0px 41px -12px rgba(0,0,0,.5);transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;overflow: visible;}
 .elementor-513 .elementor-element.elementor-element-e6edd59 > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
 .elementor-513 .elementor-element.elementor-element-99af001 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {margin-bottom: 2px;}
-.elementor-513 .elementor-element.elementor-element-c964fee .elementor-heading-title {color: rgba(2,1,1,.39);font-weight: 500;}
-.elementor-513 .elementor-element.elementor-element-c964fee > .elementor-widget-container {margin: 0px 0px 0px 0px;padding: 0px 0px 0px 7px;}
-.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs.jet-tabs-position-left > .jet-tabs__control-wrapper {min-width: 0px;}
-.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs.jet-tabs-position-right > .jet-tabs__control-wrapper {min-width: 0px;}
-.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs.jet-tabs-position-left > .jet-tabs__content-wrapper {min-width: calc(100% - 0px);}
-.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs.jet-tabs-position-right > .jet-tabs__content-wrapper {min-width: calc(100% - 0px);}
-.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs > .jet-tabs__control-wrapper {justify-content: center;flex-grow: 0;padding: 0px 0px 0px 0px;margin: 0px 0px 0px 0px;}
-.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs.jet-tabs-position-left > .jet-tabs__control-wrapper > .jet-tabs__control.jet-tabs__control-icon-left .jet-tabs__control-inner {justify-content: flex-start;}
-.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs.jet-tabs-position-left > .jet-tabs__control-wrapper > .jet-tabs__control.jet-tabs__control-icon-right .jet-tabs__control-inner {justify-content: flex-start;}
-.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs.jet-tabs-position-right > .jet-tabs__control-wrapper > .jet-tabs__control.jet-tabs__control-icon-left .jet-tabs__control-inner {justify-content: flex-start;}
-.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs.jet-tabs-position-right > .jet-tabs__control-wrapper > .jet-tabs__control.jet-tabs__control-icon-right .jet-tabs__control-inner {justify-content: flex-start;}
-.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs.jet-tabs-position-left > .jet-tabs__control-wrapper > .jet-tabs__control.jet-tabs__control-icon-top .jet-tabs__control-inner {align-items: flex-start;}
-.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs.jet-tabs-position-right > .jet-tabs__control-wrapper > .jet-tabs__control.jet-tabs__control-icon-top .jet-tabs__control-inner {align-items: flex-start;}
-.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs > .jet-tabs__control-wrapper > .jet-tabs__control .jet-tabs__label-text {color: rgba(95,100,119,.6);font-family: "Quicksand",Sans-serif;font-size: 12px;font-weight: 600;}
-.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs > .jet-tabs__control-wrapper > .jet-tabs__control .jet-tabs__control-inner {padding: 5px 5px 5px 5px;}
-.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs > .jet-tabs__control-wrapper > .jet-tabs__control {margin: 5px 5px 5px 5px;border-style: solid;border-width: 2px 2px 2px 2px;border-color: rgba(100,95,95,.21);border-radius: 6px 6px 6px 6px;}
-.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs > .jet-tabs__control-wrapper > .jet-tabs__control.active-tab .jet-tabs__label-text {color: #ff4545;font-family: "Quicksand",Sans-serif;font-weight: 900;}
-.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs > .jet-tabs__control-wrapper > .jet-tabs__control.active-tab .jet-tabs__label-icon {color: #6e68fc;}
-.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs > .jet-tabs__content-wrapper > .jet-tabs__content {padding: 0% 0% 0% 0%;}
-.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container {margin: 0px 0px 0px 0px;padding: -6px 0px 0px 0px;}
+.elementor-513 .elementor-element.elementor-element-f9ca110 .elementskit-accordion .elementskit-card-header>.elementskit-btn-link {font-size: 17px;font-weight: 400;color: #5f5f5f;background-color: #fff;padding: 0px 0px 0px 15px;}
+.elementor-513 .elementor-element.elementor-element-f9ca110 .elementskit-accordion .elementskit-card .elementskit-card-header>.elementskit-btn-link[aria-expanded="true"] {color: #969696;}
+.elementor-513 .elementor-element.elementor-element-f9ca110 .elementskit-accordion.curve-shape .elementskit-card-header>.elementskit-btn-link[aria-expanded=true] {color: #969696;}
+.elementor-513 .elementor-element.elementor-element-f9ca110 .elementskit-accordion.accoedion-primary .elementskit-card .elementskit-card-header>.elementskit-btn-link[aria-expanded="true"], .elementor-513 .elementor-element.elementor-element-f9ca110 .elementskit-accordion .elementskit-card-header>.elementskit-btn-link[aria-expanded=true], .elementor-513 .elementor-element.elementor-element-f9ca110 .elementskit-accordion.floating-style .elementskit-card .elementskit-btn-link[aria-expanded="true"] {background-color: #fff;}
+.elementor-513 .elementor-element.elementor-element-f9ca110 .elementskit-accordion .elementskit-card-body {border-radius: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;}
+.elementor-513 .elementor-element.elementor-element-f9ca110 .elementskit-accordion .elementskit-card-header .elementskit-btn-link .icon-open {color: #000;}
+.elementor-513 .elementor-element.elementor-element-f9ca110 .elementskit-accordion .elementskit-card-header .elementskit-btn-link[aria-expanded="false"] svg path {stroke: #000;fill: #000;}
+.elementor-513 .elementor-element.elementor-element-ae7aca1 {overflow: visible;}
 @media (max-width:767px) {.elementor-513 .elementor-element.elementor-element-2097b4d > .elementor-widget-container {padding: 0px 0px 0px 0px;}
 	.elementor-513 .elementor-element.elementor-element-5b4aa434 > .elementor-element-populated {margin: 0% 0% 0% 0%;--e-column-margin-right: 0%;--e-column-margin-left: 0%;padding: 0% 0% 0% 0%;}
 	.elementor-513 .elementor-element.elementor-element-e6edd59, .elementor-513 .elementor-element.elementor-element-e6edd59 > .elementor-background-overlay {border-radius: 16px 16px 0px 0px;}
-	.elementor-513 .elementor-element.elementor-element-e6edd59 {padding: -6px -6px -6px -6px;}
-	.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs {padding: 0px 0px 0px 0px;margin: 0% 0% 0% 0%;}
-	.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs > .jet-tabs__control-wrapper {align-self: stretch;justify-content: flex-start;flex-grow: 0;}
-	.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs.jet-tabs-position-left > .jet-tabs__control-wrapper > .jet-tabs__control.jet-tabs__control-icon-left .jet-tabs__control-inner {justify-content: flex-start;}
-	.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs.jet-tabs-position-left > .jet-tabs__control-wrapper > .jet-tabs__control.jet-tabs__control-icon-right .jet-tabs__control-inner {justify-content: flex-start;}
-	.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs.jet-tabs-position-right > .jet-tabs__control-wrapper > .jet-tabs__control.jet-tabs__control-icon-left .jet-tabs__control-inner {justify-content: flex-start;}
-	.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs.jet-tabs-position-right > .jet-tabs__control-wrapper > .jet-tabs__control.jet-tabs__control-icon-right .jet-tabs__control-inner {justify-content: flex-start;}
-	.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs.jet-tabs-position-left > .jet-tabs__control-wrapper > .jet-tabs__control.jet-tabs__control-icon-top .jet-tabs__control-inner {align-items: flex-start;}
-	.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs.jet-tabs-position-right > .jet-tabs__control-wrapper > .jet-tabs__control.jet-tabs__control-icon-top .jet-tabs__control-inner {align-items: flex-start;}
-	.elementor-513 .elementor-element.elementor-element-3c4a269f > .elementor-widget-container > .jet-tabs > .jet-tabs__control-wrapper > .jet-tabs__control {margin: 7px 7px 7px 7px;}}
+	.elementor-513 .elementor-element.elementor-element-e6edd59 {padding: -6px -6px -6px -6px;}}

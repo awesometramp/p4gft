@@ -1,5 +1,6 @@
 [class*="elementor-widget-htmega-"] h1 a, [class*="elementor-widget-htmega-"] h2 a, [class*="elementor-widget-htmega-"] h3 a, [class*="elementor-widget-htmega-"] h4 a, [class*="elementor-widget-htmega-"] h5 a, [class*="elementor-widget-htmega-"] h6 a {font-size: inherit;font-weight: inherit;font-family: inherit;}
 .htmega-d-none {display: none;}
+body:has( .htmega_mega_menu ) {overflow-x: hidden;}
 .htmega-section-title {position: relative;z-index: 1;}
 .htmega-section-title svg {width: 20px;}
 .htmega-section-title .section-title-txt {color: #23252a;font-weight: 600;line-height: 1;margin: 0;display: inline-block;}

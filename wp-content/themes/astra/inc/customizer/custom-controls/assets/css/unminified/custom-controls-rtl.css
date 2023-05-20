@@ -273,6 +273,8 @@ input[type="text"], input[type="password"], input[type="color"], input[type="dat
 .customize-control:not(.customize-control-nav_menu_item) {position: relative;margin-bottom: 0;margin-top: 16px;}
 .customize-control.customize-control-ast-color, .customize-control.customize-control-ast-color-group, .customize-control-ast-responsive-background, .customize-control-ast-background {display: flex;align-items: center;min-height: 28px;flex-wrap: wrap;}
 .customize-control-ast-responsive-background label {white-space: nowrap;}
+.customize-control .media-position-setting label.components-text {text-transform: capitalize;font-size: 12px;font-weight: 400;}
+.media-position-setting .astra-popover-tabs .components-tab-panel__tabs {padding-right: 0;padding-left: 0;}
 .customize-control[ID*="-builder-layout-ast-context-tabs"] {margin-top: 0;}
 [ID*="-builder-layout-ast-context-tabs"] {margin-top: 10px;}
 .customize-section-title {margin: -12px -24px 0 -24px;}
@@ -286,6 +288,7 @@ input[type="text"], input[type="password"], input[type="color"], input[type="dat
 .customize-control-ast-color .customize-control-title, .customize-control-ast-responsive-background .customize-control-title, .customize-control-ast-background .customize-control-title, .customize-control-ast-responsive-color .customize-control-title {display: contents;}
 .customize-control .ast-control-tooltip {position: absolute;top: 0;left: 0;color: var(--ast-customizer-color-6);}
 .customize-control.customize-control-ast-toggle-control .ast-control-tooltip {position: absolute;top: 50%;left: 40px;transform: translateY(-50%);z-index: 1;}
+#customize-control-astra-settings-learndash-distraction-free-learning .ast-control-tooltip {padding-top: 32px;}
 .customize-control.customize-control-ast-toggle-control.ast-top-dotted-divider .ast-control-tooltip {position: absolute;top: 55%;left: 40px;transform: translateY(0);}
 .customize-control.customize-control-ast-toggle-control.ast-top-divider .ast-control-tooltip {top: calc(50% + 15px);}
 .customize-control.customize-control-ast-toggle-control.ast-bottom-divider .ast-control-tooltip {top: calc(50% - 11px);}
@@ -522,6 +525,7 @@ span.customize-control-title.ast-group-section-title {margin-bottom: 4px;font-we
 .components-custom-gradient-picker .components-base-control__label {padding-top: 10px;font-size: 12px;display: block;letter-spacing: .1px;line-height: 18px;}
 [ID*="-gradient-view"] .components-toolbar.components-custom-gradient-picker__toolbar .components-button.has-icon {border: none;}
 .media-position-setting.hide-settings {display: none;}
+.media-position-setting .astra-popover-tabs [ID*="-gradient-view"] {padding: 0 0 15px 0;}
 .ast-field-settings-modal .customize-control-content .color-button-wrap {left: 30px;top: 0;}
 .ast-field-settings-modal .ast-responsive-btns {position: absolute;left: 14px;top: 4px;}
 .ast-field-settings-modal .customize-control-content .astra-color-picker-wrap {margin-right: 0;margin-top: 0;}

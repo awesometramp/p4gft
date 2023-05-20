@@ -6,6 +6,8 @@
 .customize-control:not(.customize-control-nav_menu_item) {position: relative;margin-bottom: 0;margin-top: 16px;}
 .customize-control.customize-control-ast-color, .customize-control.customize-control-ast-color-group, .customize-control-ast-responsive-background, .customize-control-ast-background {display: flex;align-items: center;min-height: 28px;flex-wrap: wrap;}
 .customize-control-ast-responsive-background label {white-space: nowrap;}
+.customize-control .media-position-setting label.components-text {text-transform: capitalize;font-size: 12px;font-weight: 400;}
+.media-position-setting .astra-popover-tabs .components-tab-panel__tabs {padding-right: 0;padding-left: 0;}
 .customize-control[ID*="-builder-layout-ast-context-tabs"] {margin-top: 0;}
 [ID*="-builder-layout-ast-context-tabs"] {margin-top: 10px;}
 .customize-section-title {margin: -12px -24px 0 -24px;}
@@ -19,6 +21,7 @@
 .customize-control-ast-color .customize-control-title, .customize-control-ast-responsive-background .customize-control-title, .customize-control-ast-background .customize-control-title, .customize-control-ast-responsive-color .customize-control-title {display: contents;}
 .customize-control .ast-control-tooltip {position: absolute;top: 0;left: 0;color: var(--ast-customizer-color-6);}
 .customize-control.customize-control-ast-toggle-control .ast-control-tooltip {position: absolute;top: 50%;left: 40px;transform: translateY(-50%);z-index: 1;}
+#customize-control-astra-settings-learndash-distraction-free-learning .ast-control-tooltip {padding-top: 32px;}
 .customize-control.customize-control-ast-toggle-control.ast-top-dotted-divider .ast-control-tooltip {position: absolute;top: 55%;left: 40px;transform: translateY(0);}
 .customize-control.customize-control-ast-toggle-control.ast-top-divider .ast-control-tooltip {top: calc(50% + 15px);}
 .customize-control.customize-control-ast-toggle-control.ast-bottom-divider .ast-control-tooltip {top: calc(50% - 11px);}

@@ -173,6 +173,8 @@ select {background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.
 .w-9 {width: 2.25rem;}
 .w-9\/12 {width: 75%;}
 .w-11\/12 {width: 91.666667%;}
+.w-\[35\%\] {width: 35%;}
+.w-\[45\%\] {width: 45%;}
 .w-fit {width: -moz-fit-content;width: fit-content;}
 .w-max {width: -moz-max-content;width: max-content;}
 .w-2 {width: .5rem;}
@@ -357,6 +359,7 @@ select {background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.
 .text-base {font-size: 1rem;line-height: 1.5rem;}
 .text-xl {font-size: 1.25rem;line-height: 1.75rem;}
 .text-4xl {font-size: 2.25rem;line-height: 2.5rem;}
+.text-\[1em\] {font-size: 1em;}
 .text-\[2rem\] {font-size: 2rem;}
 .text-\[10px\] {font-size: 10px;}
 .text-\[0\.75rem\] {font-size: .75rem;}
@@ -373,6 +376,7 @@ select {background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.
 .leading-\[1\.625rem\] {line-height: 1.625rem;}
 .leading-5 {line-height: 1.25rem;}
 .leading-8 {line-height: 2rem;}
+.leading-\[1em\] {line-height: 1em;}
 .leading-10 {line-height: 2.5rem;}
 .leading-\[0\.0625rem\] {line-height: .0625rem;}
 .leading-\[10px\] {line-height: 10px;}
@@ -412,7 +416,7 @@ select {background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.
 .ring-black {--tw-ring-opacity: 1;}
 .ring-opacity-5 {--tw-ring-opacity: .05;}
 .blur-md {--tw-blur: blur(12px);filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);}
-.blur-xs {--tw-blur: blur(3px);filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);}
+.blur-sm {--tw-blur: blur(4px);filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);}
 .filter {filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);}
 .transition {transition-property: color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function: cubic-bezier(.4,0,.2,1);transition-duration: 150ms;}
 .transition-all {transition-property: all;transition-timing-function: cubic-bezier(.4,0,.2,1);transition-duration: 150ms;}
@@ -456,6 +460,9 @@ select {background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.
 .translate-x-5.toggle-bubble {--tw-translate-x: 1.02rem;}
 [dir=rtl] .astra-dashboard-app button.bg-astra[aria-checked=true] .toggle-bubble {transform: translateX(-18px);}
 .ab-top-menu img, #adminmenumain img {display: initial;vertical-align: initial;}
+#wpfooter, #wpbody-content {background: #fff;}
+.ast-admin-settings-page #wpfooter, .ast-admin-settings-page #wpbody-content {background: inherit;}
+div.shadow-overlay-modal {--tw-shadow: 0px 32px 60px -20px rgba(0,0,0,.5);--tw-shadow-colored: 0px 32px 64px -24px var(--tw-shadow-color);box-shadow: var(--tw-ring-offset-shadow,0 0 rgba(0,0,0,0)),var(--tw-ring-shadow,0 0 rgba(0,0,0,0)),var(--tw-shadow);}
 @media (max-width: 781px) {div.ast-changelog-popup-wrap {margin-top: 46px;}
 	div .tablet\:w-full {width: 100%;}
 	div .tablet\:my-2 {margin-top: .5rem;margin-bottom: .5rem;}

@@ -46,6 +46,7 @@
 .components-custom-gradient-picker .components-base-control__label {padding-top: 10px;font-size: 12px;display: block;letter-spacing: .1px;line-height: 18px;}
 [ID*="-gradient-view"] .components-toolbar.components-custom-gradient-picker__toolbar .components-button.has-icon {border: none;}
 .media-position-setting.hide-settings {display: none;}
+.media-position-setting .astra-popover-tabs [ID*="-gradient-view"] {padding: 0 0 15px 0;}
 .ast-field-settings-modal .customize-control-content .color-button-wrap {left: 30px;top: 0;}
 .ast-field-settings-modal .ast-responsive-btns {position: absolute;left: 14px;top: 4px;}
 .ast-field-settings-modal .customize-control-content .astra-color-picker-wrap {margin-right: 0;margin-top: 0;}

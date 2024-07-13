@@ -1,6 +1,8 @@
 ;(function($){
 "use strict";
 
+let areaBtnNext = HTMEGAF['buttion_area_text_next'];
+let areaBtnPrev = HTMEGAF['buttion_area_text_prev'];
     var WidgetTestimonialCarouselHandler = function ($scope, $) {
 
         var carousel_elem = $scope.find('.htmega-testimonial-activation').eq(0);
@@ -40,8 +42,8 @@
                     slidesToShow: 1,
                     slidesToScroll: scroll_columns,
                     arrows: arrows,
-                    prevArrow: '<button type="button" class="slick-prev">'+arrow_prev_txt+'</button>',
-                    nextArrow: '<button type="button" class="slick-next">'+arrow_next_txt+'</button>',
+                    prevArrow: '<button aria-label="'+areaBtnPrev+'" type="button" class="slick-prev">'+arrow_prev_txt+'</button>',
+                    nextArrow: '<button aria-label="'+areaBtnNext+'" type="button" class="slick-next">'+arrow_next_txt+'</button>',
                     dots: dots,
                     fade: true,
                     asNavFor: '.htmega-testimonal-nav'
@@ -61,8 +63,8 @@
             }else{
                 carousel_elem.slick({
                     arrows: arrows,
-                    prevArrow: '<button type="button" class="slick-prev">'+arrow_prev_txt+'</button>',
-                    nextArrow: '<button type="button" class="slick-next">'+arrow_next_txt+'</button>',
+                    prevArrow: '<button aria-label="'+areaBtnPrev+'" type="button" class="slick-prev">'+arrow_prev_txt+'</button>',
+                    nextArrow: '<button aria-label="'+areaBtnNext+'" type="button" class="slick-next">'+arrow_next_txt+'</button>',
                     dots: dots,
                     infinite: true,
                     autoplay: autoplay,
@@ -113,6 +115,7 @@
             var animation_speed = parseInt(settings['animation_speed']) || 300;
             var pause_on_hover = settings['pause_on_hover'];
             var center_mode = settings['center_mode'];
+            var verticalMode = ( settings['vertical_mode'] ) ? settings['vertical_mode'] : false;
             var slloop = settings['slloop'];
             var center_padding = settings['center_padding'] ? parseInt( settings['center_padding'] ): 0;
             var variable_width = settings['variable_width'] ? true : false;
@@ -125,7 +128,6 @@
             var mobile_display_columns = parseInt(settings['mobile_display_columns']) || 1;
             var mobile_scroll_columns = parseInt(settings['mobile_scroll_columns']) || 1;
             var carousel_style_ck = parseInt( settings['carousel_style_ck'] ) || 1;
-
             if( carousel_style_ck == 4 ){
                 carousel_elem.slick({
                     arrows: arrows,
@@ -152,6 +154,7 @@
                     slidesToScroll: scroll_columns,
                     centerMode: center_mode,
                     centerPadding: center_padding+'px',
+                    vertical: verticalMode,
                     rtl: elementorFrontendConfig.is_rtl,
                     responsive: [
                         {
@@ -173,8 +176,8 @@
             }else{
                 carousel_elem.slick({
                     arrows: arrows,
-                    prevArrow: '<button class="htmega-carosul-prev">'+arrow_prev_txt+'</button>',
-                    nextArrow: '<button class="htmega-carosul-next">'+arrow_next_txt+'</button>',
+                    prevArrow: '<button aria-label="'+areaBtnPrev+'" class="htmega-carosul-prev">'+arrow_prev_txt+'</button>',
+                    nextArrow: '<button aria-label="'+areaBtnNext+'" class="htmega-carosul-next">'+arrow_next_txt+'</button>',
                     dots: dots,
                     infinite: true,
                     autoplay: autoplay,
@@ -188,6 +191,7 @@
                     centerMode: center_mode,
                     centerPadding: center_padding+'px',
                     variableWidth: variable_width,
+                    vertical: verticalMode,
                     rtl: elementorFrontendConfig.is_rtl,
                     responsive: [
                         {
@@ -283,8 +287,8 @@
 
             thumbnailscarousel_elem_for.slick({
                 arrows: arrows,
-                prevArrow: '<button class="htmega-carosul-prev">'+arrow_prev_txt+'</button>',
-                nextArrow: '<button class="htmega-carosul-next">'+arrow_next_txt+'</button>',
+                prevArrow: '<button aria-label="'+areaBtnPrev+'" class="htmega-carosul-prev">'+arrow_prev_txt+'</button>',
+                nextArrow: '<button aria-label="'+areaBtnNext+'" class="htmega-carosul-next">'+arrow_next_txt+'</button>',
                 asNavFor:thumbnailscarousel_elem_nav,
                 dots: dots,
                 infinite: true,
@@ -346,8 +350,8 @@
                 focusOnSelect: true,
                 vertical: navvertical,
                 arrows: navarrows,
-                prevArrow: '<button class="htmega-carosul-prev">'+navarrow_prev_txt+'</button>',
-                nextArrow: '<button class="htmega-carosul-next">'+navarrow_next_txt+'</button>',
+                prevArrow: '<button aria-label="'+areaBtnPrev+'" class="htmega-carosul-prev">'+navarrow_prev_txt+'</button>',
+                nextArrow: '<button aria-label="'+areaBtnNext+'" class="htmega-carosul-next">'+navarrow_next_txt+'</button>',
                 draggable: true,
                 verticalSwiping: true,
             });
@@ -744,14 +748,31 @@ template: '<div class="htmega-alert-wrap-'+notify_opt.wrapid+' '+notify_opt.widt
             });
         }
     }
-
     /*========= Counter Up ============*/
     var WidgetCounterHandler = function ($scope, $) {
         var count_elem = $scope.find('.htmega-counter-number').eq(0);
-        count_elem.counterUp({
-            delay: 10,
-            time: 1000,
+        var waypoint = new Waypoint({
+            element: count_elem[0],
+            handler: function(direction) {
+                if (direction === 'down') {
+                    $(count_elem).numerator( {
+                        easing:'swing',
+                        duration: 2000,
+                        //delimiter:',',
+                        //rounding: 2,// decimal places.
+                        toValue: parseFloat(count_elem[0].dataset['toValue'])
+                        } );
+                }
+                // Destroy the waypoint to ensure it only triggers once
+                this.destroy();
+            },
+            offset: '90%' 
         });
+
+        // $(count_elem).counterUp({
+        //     delay: 10,
+        //     time: 1000,
+        // });
     }
 
     /*========= Masonry ============*/
@@ -804,6 +825,10 @@ template: '<div class="htmega-alert-wrap-'+notify_opt.wrapid+' '+notify_opt.widt
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            keyboard: {
+                enabled: swiper_opt.keyboardscroll,
+                onlyInViewport: false,
+            },
             breakpoints: {
                 [tablet_width]: {
                   direction: swiper_opt.tablet_direction,
@@ -818,7 +843,17 @@ template: '<div class="htmega-alert-wrap-'+notify_opt.wrapid+' '+notify_opt.widt
         if( swiper_opt.mousewheel == false){
             swiper.mousewheel.disable();
         }
+        if( true == swiper_opt.slide_custom_menu ) {
+        $('a[href^="#htmega-scroll-slide"]').on('click', function (e) {
+            e.preventDefault();
 
+            var fullIndex = $(this).attr('href');
+            var slideIndex = parseInt(fullIndex.replace('#htmega-scroll-slide-',''), 0);
+            if( fullIndex !== slideIndex && slideIndex > 0 ){
+                swiper.slideTo(slideIndex-1); 
+            }
+          });
+        }
     }
 
     /*=========== Post Grid Tab =======*/
@@ -859,10 +894,33 @@ template: '<div class="htmega-alert-wrap-'+notify_opt.wrapid+' '+notify_opt.widt
         });
         
     }
-
+  /*=========== Slick Content tab load option =======*/
+    var WidgetTabControll = function tabeCarouselController() {
+        htmegaTabsCarouselRefress( $(".htmega-tab-nav") );
+    }
+ 
+    /*=========== Switcher content  carousel load option =======*/
+      var WidgetSwithcerControll = function switcherCarouselController() {
+        htmegaTabsCarouselRefress( $(".htmega-switcher-nav") );
+    }
     
+
+    /*
+    * Tab carousel content refress
+    */
+    function htmegaTabsCarouselRefress( $tabmenus ) {
+        $tabmenus.on('click', 'a', function(e) {
+            e.preventDefault();
+            // slick refresh
+            if ($('.slick-slider').length > 0) {
+                var $id = $(this).attr('href');
+                $($id).find('.slick-slider').slick('refresh');
+            }
+        });
+    }
     // Run this code under Elementor.
     $(window).on('elementor/frontend/init', function () {
+        elementorFrontend.hooks.addAction( 'frontend/element_ready/htmega-tab-addons.default', WidgetTabControll);
         elementorFrontend.hooks.addAction( 'frontend/element_ready/htmega-google-map-addons.default', WidgetGoogleMapHandler);
         elementorFrontend.hooks.addAction( 'frontend/element_ready/htmega-accordion-addons.default', WidgetAccordionsMapHandler);
         elementorFrontend.hooks.addAction( 'frontend/element_ready/htmega-progressbar-addons.default', WidgetPieChartMapHandler);
@@ -887,6 +945,9 @@ template: '<div class="htmega-alert-wrap-'+notify_opt.wrapid+' '+notify_opt.widt
         elementorFrontend.hooks.addAction( 'frontend/element_ready/htmega-postgridtab-addons.default', WidgetPostGridHandler);
         elementorFrontend.hooks.addAction( 'frontend/element_ready/htmega-imagecomparison-addons.default', WidgetImageComparisonHandler);
         elementorFrontend.hooks.addAction( 'frontend/element_ready/htmega-panelslider-addons.default', WidgetHtmegaCarouselHandler);
+        elementorFrontend.hooks.addAction( 'frontend/element_ready/htmega-switcher-addons.default', WidgetSwithcerControll);
     });
 
+
+    
 })(jQuery);

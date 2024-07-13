@@ -12,7 +12,7 @@ a.ast-upgrade-trigger:focus, a.ast-upgrade-trigger:active {box-shadow: none;bord
 .ast-upgrade-list-items {margin-bottom: 1.8em;}
 .ast-upgrade-list-wrapper .ast-upgrade-list-section-title {margin: .5em auto 1.8em;max-width: 240px;}
 .ast-pro-upgrade-item svg {vertical-align: middle;margin-left: 5px;fill: var(--ast-customizer-color-1);}
-.ast-pro-upgrade-item span {display: inline-block;}
+.ast-pro-upgrade-item span {display: inline;}
 .ast-upgrade-list-description {margin: 5px 20px 0 0;}
 .ast-upgrade-list-title {font-weight: 600;}
 .ahfb-header-builder-active li#customize-control-astra-settings-builder-header:not(.ast-pro-available), .ahfb-header-builder-active li#customize-control-astra-settings-builder-header:not(.ast-pro-available) *, .ahfb-footer-builder-active li#customize-control-astra-settings-builder-footer:not(.ast-pro-available), .ahfb-footer-builder-active li#customize-control-astra-settings-builder-footer:not(.ast-pro-available) * {color: var(--ast-customizer-color-9);background: var(--ast-customizer-color-1);}

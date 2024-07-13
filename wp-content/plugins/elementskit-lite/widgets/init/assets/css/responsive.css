@@ -126,7 +126,7 @@
 	.ekit-wid-con .elementskit-commentor-content {padding-right: 0;margin-bottom: 30px;}
 	.ekit-wid-con .elementskit-tootltip-testimonial {width: 90%;margin-left: auto;margin-right: auto;}}
 @media (max-width:767px) {.ekit-wid-con .elementskit-testimonial_card {padding: 100px 60px 40px;}
-	.ekit-wid-con .elementskit-testimonial-slider .slick-next, .ekit-wid-con .elementskit-testimonial-slider .slick-prev {display: none !important;}}
+	.ekit-wid-con .elementskit-testimonial-slider .swiper-button-next, .ekit-wid-con .elementskit-testimonial-slider .swiper-button-prev {display: none !important;}}
 @media (max-width:320px) {.ekit-wid-con .elementskit-testimonial-preset {padding: 20px 10px;}
 	.ekit-wid-con .elementskit-single-testimonial-slider.review-block {padding: 20px;}
 	.ekit-wid-con .elementskit-testimonial_card {padding: 50px 30px 20px;}

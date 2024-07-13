@@ -38,7 +38,7 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {.astra-popover-color .components-circular-option-picker .components-circular-option-picker__custom-clear-wrapper {width: 50px;}}
 .astra-popover-color [ID*="-color-view"] .components-circular-option-picker {width: auto;}
 .astra-popover-color .ast-color-palette {width: auto;padding: 16px 14px 0px 0px;}
-.astra-popover-color .ast-color-palette .components-circular-option-picker__option {width: 100%;height: 100%;border-radius: 100%;}
+.astra-popover-color .ast-color-palette .components-circular-option-picker__option {width: 100%;height: 100%;border-radius: 100%;padding: 0;}
 .astra-popover-color .ast-color-palette .components-button.is-pressed:focus:not(:disabled) {box-shadow: none;border: none;}
 .astra-popover-color .components-custom-gradient-picker {margin-top: 0;}
 .astra-popover-color .components-custom-gradient-picker__gradient-bar {box-sizing: border-box;opacity: 1;}

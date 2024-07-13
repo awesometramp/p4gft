@@ -23,9 +23,9 @@
 .components-range-control__wrapper .components-range-control__track {color: var(--ast-customizer-color-1);}
 .components-range-control__wrapper span span {background-color: var(--ast-customizer-color-1);}
 .customize-control-ast-slider .ast-slider-wrap .ast-range-unit, .customize-control-ast-responsive-slider .ast-slider-wrap .ast-range-unit {position: absolute;right: 23px;top: 4px;border-right: 1px solid var(--ast-customizer-color-7);padding-right: 6px;font-size: 11px;font-weight: 600;line-height: normal;text-transform: uppercase;color: var(--ast-customizer-color-1);}
-.customize-control-ast-slider .components-input-control__container, .customize-control-ast-responsive-slider .components-input-control__container {margin-left: 5px;}
+.customize-control-ast-slider .components-input-control__container, .customize-control-ast-responsive-slider .components-input-control__container {margin-left: 5px;width: 48px;}
 .customize-control-ast-slider .components-input-control__container div.components-input-control__backdrop, .customize-control-ast-responsive-slider .components-input-control__container div.components-input-control__backdrop {border: none;border-radius: 2px 0 0 2px;box-shadow: none;}
 .customize-control-ast-slider .ast-resp-slider-reset-wrap, .customize-control-ast-responsive-slider .ast-resp-slider-reset-wrap {position: absolute;display: inline-block;line-height: 1;right: 0;}
-.customize-control-ast-responsive-slider .ast-resp-slider-reset-wrap, .customize-control-ast-slider .ast-resp-slider-reset-wrap {top: 1px;}
+.customize-control-ast-responsive-slider .ast-resp-slider-reset-wrap, .customize-control-ast-slider .ast-resp-slider-reset-wrap {top: 1px;right: -8px;}
 .customize-control-ast-responsive-slider .ast-slider-wrap .components-range-control__number {width: calc(48px) !important;}
 .customize-control-ast-responsive-slider .ast-slider-wrap .components-range-control__number input {text-align: center;}

@@ -1,7 +1,7 @@
 .customize-control-ast-sortable .sortable {cursor: default;}
 .customize-control-ast-sortable .sortable .dashicons-visibility {cursor: pointer;}
 .customize-control-ast-sortable .sortable .ast-sortable-item, .customize-control-ast-sortable .sortable .ast-sortable-subcontrols {padding: 1px 3px 1px 12px;border: 1px solid #d1d5db;color: #334155;background: #fff;cursor: move;font-size: 14px;line-height: 38px;margin: 0 0 10px;border-radius: 4px;}
-.customize-control-ast-sortable .sortable .ast-sortable-subcontrols {border: none;border-top: 1px solid #d1d5db;border-radius: 0 0 3px 3px;}
+.customize-control-ast-sortable .sortable .ast-sortable-subcontrols {border: none;padding: 0 9px 0 0;border-top: 1px solid #d1d5db;border-radius: 0 0 3px 3px;}
 .customize-control-ast-sortable .sortable div:last-child {margin: 0;}
 .customize-control-ast-sortable .sortable div > .dashicons {float: right;position: relative;font-size: 16px;padding: 9px;line-height: 20px;border-left: none;}
 .customize-control-ast-sortable .sortable div.invisible {opacity: .6;visibility: visible;}
@@ -10,10 +10,9 @@
 .ast-sortable-item.show:hover {opacity: 1;}
 .ast-sortable-item .dashicons-arrow-down-alt2, .ast-sortable-item .dashicons-remove {margin-right: -6px;}
 .ast-sortable-item .dashicons-admin-page, .ast-sortable-item .dashicons-arrow-down-alt2, .ast-sortable-item .dashicons-remove {cursor: pointer;}
-.ast-sortable-subcontrols {display: none;padding: 12px 0;margin-left: -12px !important;border-top: 1px solid #d1d5db;margin-right: -3px !important;}
-.ast-sortable-subcontrols > * {padding-right: 9px;padding-bottom: 12px;}
+.ast-sortable-subcontrols {display: none;padding: 12px 0;border-top: 1px solid #d1d5db;}
 .show .ast-sortable-subcontrols {display: block;}
-.ast-sortable-subfields-wrap .customize-control {box-sizing: border-box;position: relative;padding-left: 9px;}
+.ast-sortable-subfields-wrap .customize-control {box-sizing: border-box;position: relative;}
 .ast-sortable-item.show i.ast-accordion {transform: rotate(180deg);border-left: none;border-right: none;}
 .ast-sortable-subfields-wrap .customize-control-ast-list-icons .components-button {padding: 6px 8px;height: 40px;background: white;}
 .ast-sortable-subfields-wrap .customize-control-ast-list-icons .components-button:focus {box-shadow: none;}
@@ -33,9 +32,10 @@
 .ast-sortable-subfields-wrap .customize-control-ast-list-icons .rfipdropdown--open .rfipicons__ibox:hover>* {transform: scale(1.3) !important;}
 .ast-sortable-subfields-wrap .customize-control-ast-list-icons .rfipdropdown--open .rfipicons__ibox {height: 32px !important;}
 .ast-sortable-subfields-wrap .ast-color-btn-reset-wrap {top: 0;}
-.customize-control-ast-sortable .ast-sortable-subfields-wrap .customize-control-title {margin-bottom: 16px;font-size: 13px;margin-top: 3px;}
+.customize-control-ast-sortable .ast-sortable-subfields-wrap .customize-control-title {margin-bottom: 16px;font-size: 14px;}
+.ast-sortable-subfields-wrap .customize-control-ast-color .ast-control-wrap .astra-popover-color {margin-left: -10px;margin-right: 10px;width: calc(100% + 15px);}
 .customize-control-ast-sortable .ast-sortable-subfields-wrap .ast-responsive-btns {top: 7px;}
-.ast-sortable-subfields-wrap .ast-fields-wrap {margin-left: -12px;padding-bottom: 10px;}
+.ast-sortable-subfields-wrap .ast-fields-wrap {padding-bottom: 16px;}
 .customize-control-content {width: 100%;display: flex;flex-direction: column;}
 .ast-sortable-subfields-wrap .ast-fields-wrap {overflow: inherit;}
 .ast-sortable-subfields-wrap .customize-control {float: none;}

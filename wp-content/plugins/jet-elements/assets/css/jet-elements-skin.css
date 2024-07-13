@@ -51,7 +51,7 @@
 .jet-slider {position: relative;}
 .jet-slider__icon .jet-slider-icon-inner {width: 60px;height: 60px;-webkit-border-radius: 50%;border-radius: 50%;}
 .jet-slider .jet-slider__icon {color: white;font-size: 40px;text-align: center;}
-.jet-slider .jet-slider__title {color: white;font-size: 36px;margin: 10px 0;text-align: center;}
+.jet-slider .jet-slider__title {color: white;margin: 10px 0;text-align: center;}
 .jet-slider .jet-slider__subtitle {color: white;font-size: 24px;margin: 10px 0;text-align: center;}
 .jet-slider .jet-slider__desc {color: white;font-size: 14px;margin: 10px 0 30px 0;text-align: center;}
 .jet-slider .jet-slider__button-wrapper {text-align: center;}
@@ -179,7 +179,7 @@
 .jet-portfolio .jet-portfolio__filter-item-separator {font-size: 12px;color: #6ec1e4;}
 .jet-portfolio .jet-portfolio__content-inner {padding: 10px;}
 .jet-portfolio .jet-portfolio__title {font-size: 22px;margin: 0 0 5px 0;}
-.jet-portfolio .jet-portfolio__category {font-size: 16px;margin: 0 0 5px 0;}
+.jet-portfolio .jet-portfolio__category {margin: 0 0 5px 0;}
 .jet-portfolio .jet-portfolio__desc {font-size: 14px;margin: 0 0 5px 0;}
 .jet-portfolio .jet-portfolio__view-more {margin-top: 30px;}
 .jet-portfolio .jet-portfolio__view-more-button {background-color: #6ec1e4;color: white;}

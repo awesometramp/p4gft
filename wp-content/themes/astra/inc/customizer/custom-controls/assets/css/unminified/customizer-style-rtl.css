@@ -19,15 +19,20 @@
 .customize-control .customize-inside-control-row {padding-top: 0;padding-bottom: 0;}
 .customize-control-title {display: inline-block;margin-bottom: 16px;vertical-align: middle;}
 .customize-control-ast-color .customize-control-title, .customize-control-ast-responsive-background .customize-control-title, .customize-control-ast-background .customize-control-title, .customize-control-ast-responsive-color .customize-control-title {display: contents;}
-.customize-control .ast-control-tooltip {position: absolute;top: 0;left: 0;color: var(--ast-customizer-color-6);}
+.customize-control .ast-control-tooltip {position: absolute;top: 0;left: 0;color: var(--ast-customizer-color-6);cursor: help;}
+.customize-control .ast-control-tooltip:hover {color: var(--ast-customizer-color-1);}
 .customize-control.customize-control-ast-toggle-control .ast-control-tooltip {position: absolute;top: 50%;left: 40px;transform: translateY(-50%);z-index: 1;}
 #customize-control-astra-settings-learndash-distraction-free-learning .ast-control-tooltip {padding-top: 32px;}
 .customize-control.customize-control-ast-toggle-control.ast-top-dotted-divider .ast-control-tooltip {position: absolute;top: 55%;left: 40px;transform: translateY(0);}
+.customize-control-ast-selector.customize-control .ast-control-tooltip {top: -3px;}
 .customize-control.customize-control-ast-toggle-control.ast-top-divider .ast-control-tooltip {top: calc(50% + 15px);}
 .customize-control.customize-control-ast-toggle-control.ast-bottom-divider .ast-control-tooltip {top: calc(50% - 11px);}
 .customize-control.customize-control-ast-toggle-control .ast-description-enabled .components-form-toggle {margin-right: 25px;}
 .customize-control.customize-control-ast-divider .ast-control-tooltip {position: absolute;top: auto;bottom: 3px;left: 0;}
 .ast-fields-wrap .customize-control .ast-control-tooltip {left: 15px;top: 6px;}
+.customize-control .ast-sortable-subfields-wrap .ast-control-tooltip {position: absolute !important;top: 40%;left: 0px;transform: translateY(-50%);z-index: 1;}
+.customize-control .ast-sortable-subfields-wrap .customize-control-ast-toggle .ast-control-tooltip {left: 30px;top: 50%;}
+.ast-top-dotted-divider .dashicons-editor-help[data-title]:hover ~ .ast-dashicons-custom-tooltip, .ast-top-section-divider .dashicons-editor-help[data-title]:hover ~ .ast-dashicons-custom-tooltip {top: 24px;}
 .customize-control .select2-search input[type="text"].select2-search__field {min-height: 17px;}
 input[type="text"].select2-search__field {line-height: 1;border-radius: 0;}
 .ast-customizer-notice {margin: 0 -12px;padding: 12px;}
@@ -49,10 +54,14 @@ input[type="text"].select2-search__field {line-height: 1;border-radius: 0;}
 .preview-mobile #customize-control-astra-settings-woo-desktop-cart-flyout-direction {display: none;}
 #customize-theme-controls .accordion-section-title, #customize-outer-theme-controls .accordion-section-title, #customize-controls .control-section.control-section-ast_section .accordion-section-title {border-bottom: 1px solid var(--ast-customizer-color-7);}
 .wp-core-ui #customize-controls .control-section:hover > .accordion-section-title, .wp-core-ui #customize-controls .control-section .accordion-section-title:hover, .wp-core-ui #customize-controls .control-section .accordion-section-title:focus, .wp-core-ui .customize-panel-back:hover, .wp-core-ui .customize-panel-back:focus, .wp-core-ui .customize-section-back:hover, .wp-core-ui .customize-section-back:focus {border-right-color: var(--ast-customizer-color-1);}
-.ast-section-toggle {display: grid;grid-template-columns: 80% 1fr 1fr;}
-.ast-section-toggle label {font-size: 14px;line-height: 1;font-weight: 600;}
+.ast-section-toggle {display: grid;grid-template-columns: 70% 20% 10%;align-items: center;align-items: center;padding: 0 12px 0 0;height: 100%;align-content: center;max-height: 46px;}
+.ast-section-toggle label {font-size: 14px;line-height: 1;font-weight: 600;height: 100%;display: inline-flex;align-items: center;}
+.ast-section-toggle > label {display: block;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;height: auto;line-height: 50px;}
 .ast-section-toggle:not(.active) > label {cursor: default;}
-.ast-section-toggle-icon {color: var(--wp-admin-theme-color);cursor: pointer;margin-bottom: -4px;margin-right: 10px;}
-.ast-section-toggle-icon span {font-size: 16px;line-height: 16px;}
+.customize-control.customize-control-ast-section-toggle {border: 1px dashed var(--ast-customizer-color-1);background: var(--ast-customizer-color-11);cursor: pointer;box-shadow: none !important;line-height: 42px;font-size: 14px;display: inline-grid;align-items: center;height: auto;color: var(--ast-customizer-color-5);position: relative;white-space: nowrap;border-radius: 4px;transition: all .2s;padding-top: 0;padding-bottom: 0;margin-top: 24px;margin-top: 24px;margin-bottom: 9px;}
+.customize-control.customize-control-ast-section-toggle:hover {background: var(--ast-customizer-color-9);border-style: solid;}
+.ast-section-toggle-icon {color: var(--wp-admin-theme-color);cursor: pointer;line-height: 20px;height: 100%;display: inline-flex;align-items: center;}
+.ast-section-toggle-icon span {font-size: 16px;line-height: 16px;width: 16px;height: 16px;}
 .customize-control-ast-section-toggle {padding-top: 25px;padding-bottom: 16px;}
-li[ID*="accordion-section-ast-dynamic-single-"].control-section-ast_section, li[ID*="accordion-section-ast-dynamic-archive-"].control-section-ast_section {display: none !important;}
+li#customize-control-astra-settings-related-posts-title {margin-top: 32px;}
+li[ID*="accordion-section-ast-dynamic-single-"].control-section-ast_section, li[ID*="accordion-section-ast-dynamic-archive-"].control-section-ast_section, li#accordion-section-section-search-page-title.control-section-ast_section, li[ID*="accordion-section-ast-sub-section-"].control-section-ast_section {display: none !important;}
